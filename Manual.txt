@@ -1,0 +1,3 @@
+1. Import sql files into Your database;
+2. Create folder and copy all files into it;
+3. move that folder into ampps/www.

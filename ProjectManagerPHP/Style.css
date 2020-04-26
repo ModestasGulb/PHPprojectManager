@@ -1,0 +1,104 @@
+* {
+    box-sizing: border-box;
+}
+
+table {
+    width: 100%;
+}
+
+th {
+    text-align: left;
+    font-size: x-large;
+}
+
+tr {
+    background-color: rgba(219, 230, 231, 0.87);
+}
+
+form {
+    display: inline;
+}
+
+header {
+    background-color: cadetblue;
+    color: whitesmoke;
+}
+
+input {
+    width: 100px;
+    height: 1.5rem;
+}
+
+.systemMsgNegative {
+    color: red;
+}
+
+.systemMsgPositive {
+    color: green;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-right: 0;
+    font-size: 2rem;
+    padding-right: 1rem;
+}
+
+td {
+    width: 25%;
+    font-size: large;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom:0;
+    text-align: center;
+}
+
+footer {
+    background-color: cadetblue;
+    height: 100px;
+    margin-top: 1rem;
+}
+
+nav div {
+    display: flex;
+    flex-direction: row;
+    padding-left: 2rem;
+}
+
+nav div form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding-right: 1rem;
+}
+
+nav div form input {
+    height: 50%;
+    background-color: whitesmoke;
+}
+
+nav div form input:hover {
+    background-color: rgb(199, 204, 209);
+}
+
+footer form {
+display: flex;
+flex-direction: column;
+padding: 5px;
+}
+
+footer form input, select {
+    width: 150px;
+    height: 1.5rem;
+}
+
+footer form label {
+    color: whitesmoke;
+}
