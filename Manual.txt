@@ -1,2 +1,2 @@
 1. Import sql files into Your database;
-2. Copy ProjectManagerPHP into ampps/www folder.
+2. Copy ProjectManagerPHP into Your local server folder.
